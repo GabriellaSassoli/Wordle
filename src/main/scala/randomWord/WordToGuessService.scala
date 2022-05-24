@@ -3,10 +3,10 @@ package randomWord
 import scala.io.Source
 import scala.util.Random
 
-object WinningWord {
+object WordToGuessService {
 
    def getWords: List[String] = {
-     Source.fromResource("listOfWords").getLines.toList
+     Source.fromResource("listOfWords").getLines.toList.filter(_.size == 5)
    }
 
   def getRandomWord(words: List[String]): String ={

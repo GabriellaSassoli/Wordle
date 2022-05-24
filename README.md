@@ -4,4 +4,4 @@ Each game a new word is released and players have six attempts to guess what the
 
 Implementation schema
 
-![Implementation schema](./assets/images/WordleSchema.png)
+![Implementation schema](./assets/images/WordleLatestSchema.png)
